@@ -16,7 +16,9 @@ Additionally, the process of building the Docker image, saving it as a .tar file
 Before proceeding, ensure you have the following installed on your machine:
 
 Docker: To build and run Docker images.
+
 Google Cloud SDK (gsutil): To upload the Docker image to Google Cloud Storage.
+
 Python 3.x: Required to run the automation script.
 
 Additionally, ensure you have access to a Google Cloud Storage bucket where the Docker image will be stored.
