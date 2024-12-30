@@ -1,9 +1,16 @@
 FROM ubuntu:latest
-
-# Installing Java latest version
 RUN apt-get update && \
     apt-get install -y \
-    openjdk-17-jdk
+    openjdk-17-jdk \
+    net-tools \
+    curl \
+    netcat \
+    vim
+
+# # Installing Java latest version
+# RUN apt-get update && \
+#     apt-get install -y \
+#     openjdk-17-jdk
 
 # Set environment variables for Java
 ENV JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
